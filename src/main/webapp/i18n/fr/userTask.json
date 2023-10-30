@@ -1,0 +1,26 @@
+{
+  "sqlverifierApp": {
+    "userTask": {
+      "home": {
+        "title": "UserTasks",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau User Task",
+        "createOrEditLabel": "Créer ou éditer un User Task",
+        "notFound": "Aucun User Task trouvé"
+      },
+      "created": "Un nouveau User Task a été créé avec l'identifiant {{ param }}",
+      "updated": "Le User Task avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le User Task avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le User Task {{ id }} ?"
+      },
+      "detail": {
+        "title": "User Task"
+      },
+      "id": "ID",
+      "isSolved": "Is Solved",
+      "user": "User",
+      "task": "Task"
+    }
+  }
+}

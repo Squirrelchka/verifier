@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20230907202610",
+  "entityTableName": "task",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "text",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "answer",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Task",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "userTask",
+      "otherEntityRelationshipName": "task",
+      "relationshipName": "userTask",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

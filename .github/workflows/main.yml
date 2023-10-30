@@ -1,0 +1,55 @@
+name: Application CI
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+jobs:
+  validation:
+    name: 'Gradle Wrapper Validation'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: gradle/wrapper-validation-action@v1
+  pipeline:
+    name: sqlverifier pipeline
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[ci skip]') && !contains(github.event.head_commit.message, '[skip ci]') && !contains(github.event.pull_request.title, '[skip ci]') && !contains(github.event.pull_request.title, '[ci skip]')"
+    timeout-minutes: 40
+    env:
+      NODE_VERSION: 18.16.1
+      SPRING_OUTPUT_ANSI_ENABLED: DETECT
+      SPRING_JPA_SHOW_SQL: false
+      JHI_DISABLE_WEBPACK_LOGS: true
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18.16.1
+          cache: 'npm'
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: 17
+          cache: 'gradle'
+      - name: Install node.js packages
+        run: npm install
+      - name: Run backend test
+        run: |
+          chmod +x gradlew
+          npm run ci:backend:test
+      - name: Run frontend test
+        run: npm run ci:frontend:test
+      - name: Package application
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: npm run java:jar:prod
+      - name: Deploy to Heroku
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+        run: |
+          if [ ! -z "$HEROKU_API_KEY" ]; then
+              ./gradlew deployHeroku --no-daemon
+          else
+              echo No HEROKU_API_KEY, skipping...
+          fi

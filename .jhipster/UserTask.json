@@ -1,0 +1,29 @@
+{
+  "applications": "*",
+  "changelogDate": "20230907202612",
+  "entityTableName": "user_task",
+  "fields": [
+    {
+      "fieldName": "isSolved",
+      "fieldType": "Boolean"
+    }
+  ],
+  "name": "UserTask",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "user",
+      "relationshipName": "user",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "task",
+      "relationshipName": "task",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

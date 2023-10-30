@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet id="20230910-1" author="isadounikau">
+        <addColumn tableName="task">
+            <column name="title" type="text"/>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="20230910-2" author="isadounikau">
+        <addNotNullConstraint tableName="task" columnName="title"/>
+    </changeSet>
+
+    <changeSet id="20230910-3" author="isadounikau">
+        <addNotNullConstraint tableName="user_task" columnName="user_id"/>
+        <addNotNullConstraint tableName="user_task" columnName="task_id"/>
+    </changeSet>
+
+    <changeSet id="20230910-4" author="isadounikau">
+        <addNotNullConstraint tableName="task" columnName="text"/>
+        <addNotNullConstraint tableName="task" columnName="answer"/>
+    </changeSet>
+
+</databaseChangeLog>

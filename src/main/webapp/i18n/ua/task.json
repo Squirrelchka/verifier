@@ -1,0 +1,27 @@
+{
+  "sqlverifierApp": {
+    "task": {
+      "home": {
+        "title": "Tasks",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Створити новий Task",
+        "createOrEditLabel": "Створити чи редагувати Task",
+        "notFound": "No Tasks found"
+      },
+      "created": "Новий Task створений з ідентифікатором {{ param }}",
+      "updated": "Task оновлений з ідентифікатором {{ param }}",
+      "deleted": "Task видалений з ідентифікатором {{ param }}",
+      "delete": {
+        "question": "Ви впевнені, що хочете видалити Task {{ id }}?"
+      },
+      "detail": {
+        "title": "Task"
+      },
+      "id": "Id",
+      "text": "Text",
+      "answer": "Answer",
+      "userTask": "User Task",
+      "title": "Title"
+    }
+  }
+}
