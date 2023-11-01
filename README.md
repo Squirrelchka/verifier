@@ -40,6 +40,13 @@ Run the following commands generate application image and allows to run it at th
 npm run java:docker
 docker compose -f src/main/docker/app.yml up -d
 ```
+
+* in case you work on Windows - you need to do this change in `package.json` file in your local repo:<br>
+`"java:docker": ./gradlew bootJar -Pprod jibDockerBuild` replace with `"java:docker": gradlew.bat bootJar -Pprod jibDockerBuild`<br>
+if you use Command Prompt or PowerShell it could be `"java:docker": gradlew bootJar -Pprod jibDockerBuild`<br>
+don't forget to set PATH for JDK
+
+
 Docker should show next containers initialisation after second command execution
 ![containers.png](docs/images/containers.png)
 You should be able to enter any container logs. And observe healthiness of application inside of `app-1`
