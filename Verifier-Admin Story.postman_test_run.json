@@ -1,0 +1,1815 @@
+{
+	"id": "63f4a9f5-9ca2-4ab8-8120-170ae637d1d5",
+	"name": "Verifier/Admin Story",
+	"timestamp": "2023-11-27T13:16:25.932Z",
+	"collection_id": "26429317-703478d3-e837-4d2b-8413-82ac6ab0e817",
+	"folder_id": 0,
+	"environment_id": "26429317-59220596-75d1-4816-9f50-2cae422b3269",
+	"totalPass": 639,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-11-27T13:13:18.190Z",
+	"totalFail": 54,
+	"results": [
+		{
+			"id": "2773a0c6-4a93-4e1b-8d5c-1ba6f80dc4ec",
+			"name": "authenticate POST",
+			"url": "https://sqlverifier-50d286d70656.herokuapp.com/api/authenticate",
+			"time": 384,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 700ms": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 21,
+					"fail": 0
+				}
+			},
+			"times": [
+				430,
+				195,
+				161,
+				439,
+				442,
+				290,
+				164,
+				155,
+				157,
+				155,
+				178,
+				195,
+				928,
+				158,
+				159,
+				158,
+				166,
+				1145,
+				162,
+				245,
+				384
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "2dec2bf2-8448-4025-99f8-8cd1ac349feb",
+			"name": "all users",
+			"url": "https://sqlverifier-50d286d70656.herokuapp.com/api/admin/users",
+			"time": 792,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 700ms": false,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 12,
+					"fail": 9
+				},
+				"Content-Type is present": {
+					"pass": 21,
+					"fail": 0
+				}
+			},
+			"times": [
+				229,
+				237,
+				226,
+				924,
+				727,
+				495,
+				220,
+				225,
+				220,
+				225,
+				1399,
+				1813,
+				775,
+				215,
+				219,
+				407,
+				223,
+				889,
+				1813,
+				713,
+				792
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": false,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": false,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": false,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": false,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": false,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": false,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": false,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": false,
+					"Content-Type is present": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 700ms": false,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "47a2e96d-6485-4616-9b70-77d901fa6bec",
+			"name": "search for user by login",
+			"url": "https://sqlverifier-50d286d70656.herokuapp.com/api/admin/users/gromova_teacher",
+			"time": 2894,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Login is correct": true,
+				"Status code is 200": true,
+				"Response time is less than 700ms": false
+			},
+			"testPassFailCounts": {
+				"Login is correct": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 13,
+					"fail": 8
+				}
+			},
+			"times": [
+				385,
+				319,
+				230,
+				490,
+				1370,
+				470,
+				234,
+				479,
+				220,
+				234,
+				1637,
+				1458,
+				921,
+				227,
+				975,
+				219,
+				215,
+				679,
+				761,
+				2049,
+				2894
+			],
+			"allTests": [
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				}
+			]
+		},
+		{
+			"id": "e11a5d75-3c93-4a8c-a958-b9649ab6ee40",
+			"name": "changing data user",
+			"url": "https://sqlverifier-50d286d70656.herokuapp.com/api/admin/users",
+			"time": 1390,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Login is correct": true,
+				"Status code is 200": true,
+				"Response time is less than 700ms": false
+			},
+			"testPassFailCounts": {
+				"Login is correct": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 12,
+					"fail": 9
+				}
+			},
+			"times": [
+				436,
+				222,
+				226,
+				861,
+				2149,
+				513,
+				235,
+				473,
+				239,
+				235,
+				2561,
+				879,
+				364,
+				217,
+				1071,
+				238,
+				240,
+				1408,
+				1337,
+				1088,
+				1390
+			],
+			"allTests": [
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				}
+			]
+		},
+		{
+			"id": "5a7377f6-df26-46a8-b98c-58b15966b8fe",
+			"name": "create user1",
+			"url": "https://sqlverifier-50d286d70656.herokuapp.com/api/admin/users",
+			"time": 3635,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Login is correct": true,
+				"Status code is 201": true,
+				"Response time is less than 700ms": false
+			},
+			"testPassFailCounts": {
+				"Login is correct": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 15,
+					"fail": 6
+				}
+			},
+			"times": [
+				493,
+				336,
+				307,
+				1676,
+				2332,
+				420,
+				311,
+				504,
+				301,
+				298,
+				785,
+				817,
+				317,
+				307,
+				482,
+				317,
+				302,
+				1852,
+				5222,
+				1729,
+				3635
+			],
+			"allTests": [
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Login is correct": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": false
+				}
+			]
+		},
+		{
+			"id": "fd5e3bfd-1d82-4034-a6b8-d336b20fe4f1",
+			"name": "delete user",
+			"url": "https://sqlverifier-50d286d70656.herokuapp.com/api/admin/users/giuseppe.gulgowski64",
+			"time": 3267,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code name has string": true,
+				"Status code is 204": true,
+				"Response time is less than 700ms": false
+			},
+			"testPassFailCounts": {
+				"Status code name has string": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Status code is 204": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 17,
+					"fail": 4
+				}
+			},
+			"times": [
+				290,
+				217,
+				214,
+				1978,
+				613,
+				439,
+				214,
+				332,
+				225,
+				222,
+				1411,
+				733,
+				231,
+				233,
+				533,
+				231,
+				226,
+				2182,
+				252,
+				1805,
+				3267
+			],
+			"allTests": [
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": false
+				}
+			]
+		},
+		{
+			"id": "13b90d61-22fe-4f81-95e0-6cfa6c9abfb6",
+			"name": "create task",
+			"url": "https://sqlverifier-50d286d70656.herokuapp.com/api/tasks",
+			"time": 1039,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code name has string": true,
+				"Status code is 201": true,
+				"Response time is less than 700ms": false
+			},
+			"testPassFailCounts": {
+				"Status code name has string": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 20,
+					"fail": 1
+				}
+			},
+			"times": [
+				153,
+				82,
+				81,
+				481,
+				209,
+				82,
+				82,
+				141,
+				82,
+				80,
+				320,
+				91,
+				84,
+				84,
+				189,
+				82,
+				83,
+				343,
+				328,
+				655,
+				1039
+			],
+			"allTests": [
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 201": true,
+					"Response time is less than 700ms": false
+				}
+			]
+		},
+		{
+			"id": "ccb9598d-618a-4c0b-98d9-3e0a6eef1385",
+			"name": "all tasks",
+			"url": "https://sqlverifier-50d286d70656.herokuapp.com/api/tasks",
+			"time": 900,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name has string": true,
+				"Status code is 200": true,
+				"Response time is less than 700ms": true
+			},
+			"testPassFailCounts": {
+				"Status code name has string": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 21,
+					"fail": 0
+				}
+			},
+			"times": [
+				400,
+				208,
+				230,
+				253,
+				597,
+				213,
+				228,
+				490,
+				214,
+				223,
+				1113,
+				806,
+				231,
+				223,
+				361,
+				216,
+				219,
+				713,
+				1037,
+				1078,
+				900
+			],
+			"allTests": [
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				}
+			]
+		},
+		{
+			"id": "30ffce45-fc39-42ea-a2ff-cff4f4fb6a6b",
+			"name": "changing task",
+			"url": "https://sqlverifier-50d286d70656.herokuapp.com/api/tasks/34029",
+			"time": 9784,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name has string": true,
+				"Status code is 200": true,
+				"Response time is less than 700ms": false
+			},
+			"testPassFailCounts": {
+				"Status code name has string": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 14,
+					"fail": 7
+				}
+			},
+			"times": [
+				230,
+				219,
+				220,
+				1557,
+				1440,
+				350,
+				213,
+				217,
+				230,
+				241,
+				1405,
+				1648,
+				229,
+				227,
+				341,
+				224,
+				224,
+				1415,
+				1348,
+				488,
+				9784
+			],
+			"allTests": [
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				}
+			]
+		},
+		{
+			"id": "ce8e01a1-3da2-4843-b386-e8f0c535f14e",
+			"name": "get changing task",
+			"url": "https://sqlverifier-50d286d70656.herokuapp.com/api/tasks/34029",
+			"time": 1583,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name has string": true,
+				"Status code is 200": true,
+				"Response time is less than 700ms": false
+			},
+			"testPassFailCounts": {
+				"Status code name has string": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 13,
+					"fail": 8
+				}
+			},
+			"times": [
+				215,
+				230,
+				542,
+				2674,
+				1084,
+				267,
+				209,
+				266,
+				221,
+				221,
+				2152,
+				1682,
+				220,
+				238,
+				412,
+				260,
+				215,
+				2140,
+				2814,
+				4131,
+				1583
+			],
+			"allTests": [
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": false
+				}
+			]
+		},
+		{
+			"id": "915182c3-0e58-4a4b-a6b6-e947799a604f",
+			"name": "delete task",
+			"url": "https://sqlverifier-50d286d70656.herokuapp.com/api/tasks/34029",
+			"time": 509,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code name has string": true,
+				"Status code is 204": true,
+				"Response time is less than 700ms": true
+			},
+			"testPassFailCounts": {
+				"Status code name has string": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Status code is 204": {
+					"pass": 21,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 19,
+					"fail": 2
+				}
+			},
+			"times": [
+				380,
+				219,
+				538,
+				1434,
+				1359,
+				222,
+				235,
+				351,
+				224,
+				711,
+				269,
+				1068,
+				234,
+				210,
+				216,
+				224,
+				279,
+				2770,
+				1756,
+				568,
+				509
+			],
+			"allTests": [
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": false
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				},
+				{
+					"Status code name has string": true,
+					"Status code is 204": true,
+					"Response time is less than 700ms": true
+				}
+			]
+		}
+	],
+	"count": 21,
+	"totalTime": 163417,
+	"collection": {
+		"requests": [
+			{
+				"id": "2773a0c6-4a93-4e1b-8d5c-1ba6f80dc4ec",
+				"method": "POST"
+			},
+			{
+				"id": "2dec2bf2-8448-4025-99f8-8cd1ac349feb",
+				"method": "GET"
+			},
+			{
+				"id": "47a2e96d-6485-4616-9b70-77d901fa6bec",
+				"method": "GET"
+			},
+			{
+				"id": "e11a5d75-3c93-4a8c-a958-b9649ab6ee40",
+				"method": "PUT"
+			},
+			{
+				"id": "5a7377f6-df26-46a8-b98c-58b15966b8fe",
+				"method": "POST"
+			},
+			{
+				"id": "fd5e3bfd-1d82-4034-a6b8-d336b20fe4f1",
+				"method": "DELETE"
+			},
+			{
+				"id": "13b90d61-22fe-4f81-95e0-6cfa6c9abfb6",
+				"method": "POST"
+			},
+			{
+				"id": "ccb9598d-618a-4c0b-98d9-3e0a6eef1385",
+				"method": "GET"
+			},
+			{
+				"id": "30ffce45-fc39-42ea-a2ff-cff4f4fb6a6b",
+				"method": "PATCH"
+			},
+			{
+				"id": "ce8e01a1-3da2-4843-b386-e8f0c535f14e",
+				"method": "GET"
+			},
+			{
+				"id": "915182c3-0e58-4a4b-a6b6-e947799a604f",
+				"method": "DELETE"
+			}
+		]
+	}
+}
